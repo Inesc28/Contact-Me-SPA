@@ -1,0 +1,124 @@
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 15px;
+}
+
+p {
+  margin: 4px;
+  color: #828485;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  height: 960px;
+  background-color: #f3f0f0;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.options {
+  justify-content: right;
+  margin-left: 190px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-top: 2px solid #dcdcdc; 
+}
+
+.new-chat {
+  margin-top: 42px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  background-color: #a491d2;
+  color: #fff;
+  align-self: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px 0; 
+  border-top: 2px solid #dcdcdc; 
+}
+
+.contact img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
+.contact .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 18px;
+  color: #1B1F21;
+}
+
+nav i {
+  font-size: 25px;
+  color: #BEC1BB;
+  margin: 7px;
+}
+
+.main img {
+  width: 290px;
+}
+
+.main h1 {
+  font-weight: normal;
+  font-size: 50px;
+  margin-bottom: 2px;
+}
+
